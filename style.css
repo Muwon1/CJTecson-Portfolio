@@ -293,79 +293,97 @@ section {
 #about {
 
     position: relative;
-
-
-}
-.about-containers {
-    gap: 2rem; /* Gap between details containers */
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    display: flex; /* Arrange details containers side-by-side */
-  }
-  
-
-.about-details-container {
-    justify-content: center; /* Center content horizontally */
-    flex-direction: column; /* Stack content vertically */
-    padding: 1.5rem; /* Inner padding */
-    flex: 1; /* Make this container flexible to fill available space */
-    background: white;
-    border-radius: 2rem;
-    border: 1px solid rgb(163, 163, 163); /* Gray border */
-    text-align: center; /* Center text content */
-  }
-  
-
-.about-containers, .about-details-container{
-
-
-        display: flex;
-}
-
-.about-pic {
-
-
-    border-radius: 2rem;
-    height: 500px;
-    max-width: 250%;
-
-
-
-}
-
-.arrow {
-    position: absolute; /* Absolute positioning */
-    right: -5rem; /* Offset from the right edge */
-    bottom: 2.5rem; /* Offset from the bottom edge */
-  }
-  
-
-.about-details-container{
-
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
     text-align: center;
 
 }
 
-.section-container{
 
-    gap: 4rem;
-    display: flex;
-    height: 50%;
+.about-containers {
+
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    
+
+}
+
+.about-details-containers{
+
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 2rem;
+
+
+}
+
+.about-containers, .about-details-containers {
+
+    display:  flex;
+
+}
+
+.about-pic {
+
+    border-radius: 2rem;
+    width: 500px;
+    height: 500px;
+    margin-left: 10rem;
+
 }
 
 
-.section-container {
+.text-container {
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center align horizontally */
+}
+
+
+.arrow {
+    position: fixed;
+    right: 1rem; /* Adjust the distance from the right */
+    bottom: 3rem; /* Adjust the distance from the bottom */
+}
+
+
+
+.section__header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.details-container {
+    padding: 2rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53 ,53 , 53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+
+.section-container{
+
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    gap: 4rem;
+    align-items: flex-start;
+
+}
+
+.section_pic-container{
 
     height: 400px;
     width: 400px;
-    margin: auto;
-
+    margin: auto 0;
 
 
 }
+
+.section-header{
+
+    margin-bottom: 2rem;
+
+}
+
