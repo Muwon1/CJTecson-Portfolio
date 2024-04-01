@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
@@ -10,43 +10,40 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Christian James Tecson</div>
+      <div class="logo">Christian James G. Tecson</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#About">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Christian James Tecson</div>
-      <div class="hamburger-menu"></div>
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <ul>
-          <li><a href="#About" onclick="toggleMenu()">About</a></li>
-          <li>
-            <a href="#experience" onclick="toggleMenu()">Experiences</a>
-          </li>
-          <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
-        </ul>
+      <div class="logo">Christian Tecson</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
     </nav>
     <section id="profile">
-      <div class="section_pic-container">
-        <img src="./Materials/Formal.png" alt="CJ ProfilePic" />
+      <div class="section__pic-container">
+        <img src="./Materials/Formal.png" alt="CJ Tecson Profile" />
       </div>
-      <div class="section_text">
-        <p class="section_text_p1">Hello, I'm</p>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">CJ Tecson</h1>
-        <p class="section_text_p2">Developer</p>
+        <p class="section__text__p2">Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -54,39 +51,34 @@
           >
             Download CV
           </button>
-          <button
-            class="btn btn-color-1"
-            onclick="window.location.href='./Materials/contact.png'"
-          >
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
         <div id="socials-container">
           <img
             src="./Materials/linkedin.png"
-            alt="Linkedin Profile"
+            alt="My LinkedIn profile"
             class="icon"
-            onclick="window.location.href='https://www.linkedin.com/in/christian-james-tecson-81b740258/'"
+            onclick="location.href='https://www.linkedin.com/in/christian-james-tecson-81b740258/'"
           />
           <img
             src="./Materials/GitHub.png"
-            alt="Github Profile"
+            alt="My Github profile"
             class="icon"
-            onclick="window.location.href='https://github.com/Muwon1/'"
+            onclick="location.href='https://github.com/Muwon1'"
           />
         </div>
       </div>
     </section>
-    <section id="About">
-      <div class="section__header">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-      </div>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./Materials/Profilepic2.jpeg"
-            alt="profile picture"
+            src="./Materials/Profilepic1.jpg"
+            alt="Profile picture"
             class="about-pic"
           />
         </div>
@@ -95,38 +87,43 @@
             <div class="details-container">
               <img
                 src="./Materials/experience.png"
-                alt="experience icon"
+                alt="Experience icon"
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2 months<br />Developer</p>
+              <p>
+                2+ Months <br />
+                Developer
+              </p>
             </div>
             <div class="details-container">
               <img
                 src="./Materials/education.png"
-                alt="education icon"
+                alt="Education icon"
                 class="icon"
               />
               <h3>Education</h3>
-              <p>Bachelor of Science in<br />Computer Engineering</p>
+              <p>Bachelor of Science <br />In Computer Engineering</p>
             </div>
           </div>
           <div class="text-container">
-            I am an aspiring developer currently taking On the Job Training at
-            Opo Networks Corp. I'm currently learning Python and Django web
-            development!
+            <p>
+              Hi! I'm Christian James G. Tecson, I am an aspiring Developer
+              currently having an On the Job Training at Opo Networks Corp! I'm
+              currently learning python and django!
+            </p>
           </div>
         </div>
       </div>
       <img
         src="./Materials/arrow.png"
-        alt="arrow icon"
+        alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
       />
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
+      <p class="section__text__p1">My</p>
       <h1 class="title">Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
@@ -136,7 +133,7 @@
               <article>
                 <img
                   src="./Materials/css.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
@@ -147,10 +144,9 @@
               <article>
                 <img
                   src="./Materials/python.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
-
                 <div>
                   <h3>Python</h3>
                   <p>Beginner</p>
@@ -159,10 +155,9 @@
               <article>
                 <img
                   src="./Materials/Django.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
-
                 <div>
                   <h3>Django</h3>
                   <p>Beginner</p>
@@ -171,10 +166,9 @@
               <article>
                 <img
                   src="./Materials/html.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
-
                 <div>
                   <h3>HTML</h3>
                   <p>Experienced</p>
@@ -183,7 +177,7 @@
               <article>
                 <img
                   src="./Materials/javascript.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
@@ -199,10 +193,9 @@
               <article>
                 <img
                   src="./Materials/arduino.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
-
                 <div>
                   <h3>Arduino</h3>
                   <p>Intermediate</p>
@@ -211,10 +204,9 @@
               <article>
                 <img
                   src="./Materials/esp32.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
-
                 <div>
                   <h3>ESP32</h3>
                   <p>Intermediate</p>
@@ -223,34 +215,23 @@
               <article>
                 <img
                   src="./Materials/LCD.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Logic And Circuits</h3>
+                  <h3>Logic and Circuits</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
                 <img
                   src="./Materials/rasberry.png"
-                  alt="Experience Icon"
+                  alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Rasberry Pi</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Materials/tinkercad.png"
-                  alt="Experience Icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TinkerCad</h3>
-                  <p>Intermediate</p>
+                  <h3>RasberryPi</h3>
+                  <p>Novice</p>
                 </div>
               </article>
             </div>
@@ -259,47 +240,136 @@
       </div>
       <img
         src="./Materials/arrow.png"
-        alt="arrow icon"
+        alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#projects'"
       />
     </section>
     <section id="projects">
-      <p class="section__text__p1">My Works</p>
+      <p class="section__text__p1">My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="details-container color-containers">
-          <div class="article-container">
-            <img
-              src="./Materials/project-1.png"
-              alt="Project 1"
-              class="project-img"
-            />
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./Materials/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Todo Application</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Muwon1/Christian-TodoApp'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Muwon1/Christian-TodoApp'"
+              >
+                Live Demo
+              </button>
+            </div>
           </div>
-          <h2 class="experience-sub-title project title">Todo App</h2>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/Muwon1/Christian-TodoApp'"
-            >
-              Open Project
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/Muwon1/Christian-TodoApp'"
-            >
-              Demo
-            </button>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./Materials/signup.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Signup Page</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Muwon1/Tecson-AngularSignup'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Muwon1/Tecson-AngularSignup/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./Materials/grievance.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Grievance Forms</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
           </div>
         </div>
       </div>
       <img
         src="./Materials/arrow.png"
-        alt="arrow icon"
+        alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#Projects'"
+        onclick="location.href='./#contact'"
       />
     </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./Materials/email ppng.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:examplemail@gmail.com"
+              >ChristianJames367@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./Materials/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#011202; 2024 Christian Tecson. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
