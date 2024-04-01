@@ -288,8 +288,6 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-  height: 500px;
-  width: 500px;
 
 }
 
@@ -367,12 +365,7 @@ article .icon {
   cursor: default;
 }
 
-title {
 
-    margin-top: 10px;
-
-
-}
 
 /* PROJECTS SECTION */
 
