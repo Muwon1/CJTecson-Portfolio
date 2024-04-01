@@ -365,19 +365,11 @@ article .icon {
   cursor: default;
 }
 
-#skills {
-
-    position: relative;
-    margin-bottom: 10vh; /* Keep the margin bottom as it is */
-
-}
-
 
 #skills .title{
 
 
     margin-top: 100vh;
-
 
 
 }
