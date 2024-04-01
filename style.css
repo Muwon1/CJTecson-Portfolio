@@ -150,8 +150,10 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  margin-bottom: 10vh; /* Increase the margin bottom */
+  margin-left: 10rem; /* Increase the left margin */
+  margin-right: 10rem; /* Increase the right margin */
+  height: auto;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -265,12 +267,13 @@ section {
 
 #about {
   position: relative;
+  margin-bottom: 10vh; /* Increase the margin bottom */
 }
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 6rem; /* Increase the margin bottom */
+  margin-top: 4rem; /* Increase the margin top */
 }
 
 .about-details-container {
@@ -317,6 +320,14 @@ section {
   margin: auto 0;
 }
 
+/* SKILLS SECTION */
+
+#skills {
+  position: relative;
+  margin-top: 10vh; /* Increase the margin top */
+  margin-bottom: 10vh; /* Increase the margin bottom */
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -354,6 +365,13 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+title {
+
+    margin-top: 10px;
+
+
 }
 
 /* PROJECTS SECTION */
@@ -433,6 +451,12 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+
+
+
+
 
 
 
