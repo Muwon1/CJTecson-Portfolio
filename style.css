@@ -267,13 +267,13 @@ section {
 
 #about {
   position: relative;
-  margin-bottom: 10vh; /* Increase the margin bottom */
+
 }
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 6rem; /* Increase the margin bottom */
-  margin-top: 4rem; /* Increase the margin top */
+  margin-bottom: 1rem; 
+  margin-top: 1rem; 
 }
 
 .about-details-container {
@@ -322,8 +322,8 @@ section {
 
 #skills {
   position: relative;
-  margin-top: 10vh; /* Increase the margin top */
-  margin-bottom: 10vh; /* Increase the margin bottom */
+  margin-top: 20vh; 
+  margin-bottom: 10vh; 
 }
 
 /* EXPERIENCE SECTION */
