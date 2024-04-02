@@ -320,7 +320,7 @@ section {
 
 .about-title {
   position: relative;
-  top: 80px; /* Adjust the value as needed */
+  top: 80px; 
 }
 
 
@@ -399,12 +399,12 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
-  opacity: 1; /* Ensure image is fully visible by default */
-  transition: opacity 0.3s ease; /* Add transition effect */
+  opacity: 1; 
+  transition: opacity 0.5s ease; /
 }
 
 .details-container:hover .project-img {
-  opacity: 0.8; /* Reduce opacity on hover */
+  opacity: 0.8; 
 }
 
 .project-title {
@@ -420,11 +420,11 @@ article .icon {
 
 .project-btn:hover {
   background-color: #007bff; 
-  color: #fff; 
+  color: #ffffff; 
 }
 
 .details-container {
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease-in-out;
 }
 
 .details-container:hover {
