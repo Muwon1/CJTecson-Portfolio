@@ -267,7 +267,6 @@ section {
 
 #about {
   position: relative;
-
 }
 
 .about-containers {
@@ -288,7 +287,6 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-
 }
 
 .arrow {
@@ -317,6 +315,15 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
+.title {
+  position: relative;
+  top: 20px; /* Adjust the value as needed */
+}
+
+
+
+
 
 /* SKILLS SECTION */
 
@@ -367,8 +374,6 @@ article .icon {
 
 
 #skills .title{
-
-
     margin-top: 100vh;
 
 
@@ -390,6 +395,12 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  opacity: 1; /* Ensure image is fully visible by default */
+  transition: opacity 0.3s ease; /* Add transition effect */
+}
+
+.details-container:hover .project-img {
+  opacity: 0.8; /* Reduce opacity on hover */
 }
 
 .project-title {
@@ -400,7 +411,23 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.project-btn:hover {
+  background-color: #007bff; 
+  color: #fff; 
+}
+
+.details-container {
+  transition: transform 0.3s ease;
+}
+
+.details-container:hover {
+  transform: scale(1.05); 
+}
+
+
 
 /* CONTACT */
 
@@ -408,8 +435,8 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center; /* Center horizontally */
-  height: auto; /* Adjust height dynamically based on content */
+  align-items: center; 
+  height: auto; 
 }
 
 .contact-info-upper-container {
@@ -448,34 +475,34 @@ article .icon {
 .contact-form-container form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align labels to the left */
+  align-items: flex-start; 
 }
 
 .contact-form-container label {
-  margin-bottom: 0.2rem; /* Reduce margin between labels */
-  margin-right: 0.5rem; /* Add spacing between label and input */
-  color: #333; /* Label text color */
-  font-weight: bold; /* Make labels bold */
+  margin-bottom: 0.2rem; 
+  margin-right: 0.5rem; 
+  color: #333; 
+  font-weight: bold; 
 }
 
 .contact-form-container input[type="text"],
 .contact-form-container input[type="email"],
 .contact-form-container textarea {
-  width: calc(100% - 1rem); /* Adjust width to match other elements */
+  width: calc(100% - 1rem); 
   padding: 0.5rem;
-  margin-bottom: 0.5rem; /* Reduce margin between input fields */
+  margin-bottom: 0.5rem; 
   border: none;
-  border-radius: 1rem; /* Make corners round */
-  background-color: #f0f0f0; /* Background color for input fields */
+  border-radius: 1rem; 
+  background-color: #f0f0f0; 
 }
 
 .contact-form-container textarea {
-  resize: vertical; /* Allow vertical resizing of textarea */
+  resize: vertical; 
 }
 
 .contact-form-container input[type="submit"] {
   padding: 0.5rem 2rem;
-  background-color: #007bff; /* Blue color */
+  background-color: #007bff; 
   color: #fff;
   border: none;
   border-radius: 0.3rem;
@@ -483,11 +510,8 @@ article .icon {
 }
 
 .contact-form-container input[type="submit"]:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3; 
 }
-
-
-
 
 
 /* FOOTER SECTION */
