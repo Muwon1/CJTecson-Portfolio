@@ -286,6 +286,8 @@ section {
 }
 
 .about-pic {
+  position: relative;
+  left: 40px;
   border-radius: 2rem;
 }
 
@@ -316,9 +318,9 @@ section {
   margin: auto 0;
 }
 
-.title {
+.about-title {
   position: relative;
-  top: 20px; /* Adjust the value as needed */
+  top: 80px; /* Adjust the value as needed */
 }
 
 
@@ -373,8 +375,10 @@ article .icon {
 }
 
 
-#skills .title{
-    margin-top: 100vh;
+.about-skills{
+  
+  position: relative;
+  top: 20px;
 
 
 }
@@ -425,6 +429,14 @@ article .icon {
 
 .details-container:hover {
   transform: scale(1.05); 
+}
+
+.about-project {
+
+  position: relative;
+  top: 15px;
+
+
 }
 
 
