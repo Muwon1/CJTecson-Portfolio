@@ -408,16 +408,16 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  align-items: center; /* Center horizontally */
+  height: auto; /* Adjust height dynamically based on content */
 }
 
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
+  border: 0.1rem solid rgb(163, 163, 163);
+  background-color: rgb(250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -425,7 +425,6 @@ article .icon {
 .contact-info-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
 }
@@ -441,6 +440,55 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
+.contact-form-container {
+  margin-top: 2rem;
+}
+
+.contact-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align labels to the left */
+}
+
+.contact-form-container label {
+  margin-bottom: 0.2rem; /* Reduce margin between labels */
+  margin-right: 0.5rem; /* Add spacing between label and input */
+  color: #333; /* Label text color */
+  font-weight: bold; /* Make labels bold */
+}
+
+.contact-form-container input[type="text"],
+.contact-form-container input[type="email"],
+.contact-form-container textarea {
+  width: calc(100% - 1rem); /* Adjust width to match other elements */
+  padding: 0.5rem;
+  margin-bottom: 0.5rem; /* Reduce margin between input fields */
+  border: none;
+  border-radius: 1rem; /* Make corners round */
+  background-color: #f0f0f0; /* Background color for input fields */
+}
+
+.contact-form-container textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact-form-container input[type="submit"] {
+  padding: 0.5rem 2rem;
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.contact-form-container input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
 
 /* FOOTER SECTION */
 
